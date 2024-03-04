@@ -1,0 +1,10 @@
+@import 'resets';
+@import 'vars';
+@import 'mixins';
+@import 'base';
+
+//sections
+@import 'sections/hero';
+@import 'sections/welcome';
+@import 'sections/skills';
+@import 'sections/footer'

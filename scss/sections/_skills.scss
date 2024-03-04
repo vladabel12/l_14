@@ -1,0 +1,53 @@
+.skills{
+    &__name{
+        font-weight: 500;
+        font-size: 34rem;
+        line-height: 118%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        padding-bottom: 60rem;
+    }
+
+    &__preferences{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.my-preferences{
+    padding-bottom: 128px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24rem;
+
+    @include desktop-xs{
+        grid-template-columns: auto auto;
+        gap: 20rem;
+    }
+
+    @include tablet-s{
+        grid-template-columns: auto;
+    }
+}
+
+.preferences{
+    border-radius: 8rem;
+    padding: 24rem;
+    max-width: 354rem;
+    background: var(--rellenos);
+    
+    &__name{
+        font-size: 34rem;
+        line-height: 118%;
+        letter-spacing: 0.01em;
+        margin: 10rem 0;
+    }
+
+    &__description{
+        font-weight: 400;
+        font-size: 16rem;
+        line-height: 175%;
+        letter-spacing: 0.03em;
+    }
+
+}
